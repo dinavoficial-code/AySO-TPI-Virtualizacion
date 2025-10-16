@@ -56,7 +56,7 @@ python3 programa_prueba.py
 - 📘 `/documentacion/` → Guías de instalación con imágenes y pasos detallados.  
 - 🐍 `/codigo/` → Programa simple en Python para pruebas dentro de la VM.  
 - 🧾 `/informe_tecnico/` → Informe sobre los fundamentos y aplicaciones de la virtualización.  
-- 🖼️ `/imagenes/` → Capturas de pantalla del proceso de instalación y ejecución.  
+- 🖼️ `/imagenes/` → Capturas de pantalla del proceso de instalación y ejecución del programa.  
 
 ---
 
