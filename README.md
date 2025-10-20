@@ -38,11 +38,26 @@ Sigue las instrucciones del documento `Instalacion_VirtualBox.pdf`.
 Sigue las instrucciones del documento `Instalacion_Ubuntu.pdf`.   
 
 ### 4. Instalar Python dentro de la máquina virtual  
-Una vez dentro de Ubuntu, abre la terminal y ejecuta:  
+Una vez dentro de Ubuntu, abre la terminal y sigue los siguientes pasos:
+
+1️⃣ Actualizar los repositorios
 ```bash
-sudo apt update
-sudo apt install python3
+sudo apt update && sudo apt upgrade -y
 ```
+2️⃣ Instalar Python
+```bash
+sudo apt update && sudo apt install python3 -y
+```
+3️⃣ Instalar pip (gestor de paquetes de Python)
+```bash
+sudo apt install python3-pip -y
+```
+4️⃣ Verificar la instalación
+```bash
+python3 --version
+pip3 --version
+```
+
 
 ### 5. Ejecutar el programa de prueba  
 Navega a la carpeta del proyecto y ejecuta:  
