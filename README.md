@@ -62,7 +62,7 @@ pip3 --version
 ### 5. Ejecutar el programa de prueba  
 Navega a la carpeta del proyecto y ejecuta:  
 ```bash
-python3 programa_prueba.py
+python3 programa.py
 ```
 
 ---
